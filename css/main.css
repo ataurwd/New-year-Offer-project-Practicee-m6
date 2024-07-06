@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fontForAll{
+    font-family: "Merriweather";
+    font-style: normal;
+}
+
+
+/* hero section */
+
+.headingMain{
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
+    height: 600px;
+    border-radius: 16px;
+    color: white;
+    margin: 50px 140px 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.textArea{
+    text-align: center;
+    padding-top: 177px;
+}
+.textArea h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+.textArea h1{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* Discount Section CSS */
+
+.discountSection{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.discountSection h1{
+    font-size: 88px;
+    font-weight: 700px;
+    color: red;
+    padding-bottom: 48px;
+}
+.discountSection h2{
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+.discountSection h3{
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.discountSection img{
+    padding-top: 38px;
+    padding-bottom: 120px;
+}
+
+
+/* party section CSS */
+.partyMain{
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
+    height: 600px;
+    border-radius: 16px;
+    color: white;
+    margin: 0px 140px 0px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.partyArea{
+    width: 60%;
+    padding: 126px 0 0 126px;
+}
+.partyArea h2{
+    font-size: 64px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.partyArea p{
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+.partyArea button {
+    padding: 10px 27px;
+    border: none;
+    border-radius: 6px;
+    background-color: #efd64d;
+    color: black;
+}
+
+.partyImg {
+    padding: 90px 0 0 62px;
+    width: 350px;
+}
+
+
+/* party time css */
+.partyTime{
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin: 100px 140px;
+    
+}
+.partyTime{
+    text-align: center;
+    padding-top: 120px;
+}
+.partyTime span{
+    color: red;
+}
+
+.partyTime h1{
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.partyTime button {
+    padding: 10px 27px;
+    border: none;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+
+/* Comeing Soon Section CSS */
+
+.comingSoon{
+    display: flex;
+    padding: 0 140px 100px;
+    justify-content: space-between;
+}
+
+.comingSoon .first{
+    width: 393px;
+}
+.first{
+    padding-top: 60px;
+}
+
+.first h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+}
+.first h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: black;
+    padding: 10px 0;
+}
+.first p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+}
+.comingImg{
+    /* width: 463px;
+    height: 463px; */
+}
+.lastSection{
+    width: 276px;
+}
+
+.lastSection h1{
+    color: red;
+    font-size: 48px;
+    font-weight: 700px;
+}
+.lastSection p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+}
+.lastSection img{
+    padding-top: 43px;
+}
+.comingImg img{
+    box-sizing: border-box;
+    /* border: 15px solid rgb(255, 0, 0); */
+    /* position: absolute; */
+    /* box-shadow: 0 0 0 10px red; */
+}
+
+.comingImg{
+    display: inline-block;
+    border-radius: 50%;
+    padding: 20px; 
+    border: 15px solid red; 
+    box-sizing: content-box;
+}
+
+
+/* <!-- holiday sale section --> */
+
+.holidays{
+    width: 1068px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.holidays h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.holidays h1{
+    font-size: 72px;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.holidays span{
+    color: red;
+}
+
+.holidays p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1068px;
+}
+
+/* img discount section */
+
+.discountImg{
+    display: flex;
+    padding: 50px 140px;
+    justify-content: space-between;
+    /* z-index: 2; */
+}
+
+.discountFirst{
+    width: 674px;
+    height: 662px;
+    z-index: 10;
+    position: absolute;
+}
+
+.discountBg {
+    padding: 0 140px;
+    z-index: 1;
+    margin-top: 48px;
+    position: absolute;
+}
+.allimg{
+    box-sizing: content-box;
+}
