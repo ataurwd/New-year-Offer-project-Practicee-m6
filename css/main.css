@@ -3,9 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.fontForAll{
+body{
     font-family: "Merriweather";
-    /* font-style: normal; */
 }
 P{
     font-family: "Inter", sans-serif;
@@ -15,13 +14,15 @@ P{
 /* hero section */
 
 .headingMain{
-    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
+    background-image: url(../images/Banner\ Image.png);
     height: 600px;
     border-radius: 16px;
     color: white;
     margin: 50px 140px 100px;
     background-size: cover;
     background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
 }
 
 .textArea{
@@ -69,7 +70,7 @@ P{
 
 /* party section CSS */
 .partyMain{
-    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
+    background-image: url(../images/Banner\ Image.png);
     height: 600px;
     border-radius: 16px;
     color: white;
@@ -77,6 +78,8 @@ P{
     background-size: cover;
     background-position: center;
     display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
 }
 .partyArea{
     width: 60%;
@@ -257,6 +260,7 @@ P{
 }
 .allimg{
     box-sizing: content-box;
+    width: 1620px;
 }
 
 /* portfolio section */
