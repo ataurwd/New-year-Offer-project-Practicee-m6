@@ -5,7 +5,10 @@
 }
 .fontForAll{
     font-family: "Merriweather";
-    font-style: normal;
+    /* font-style: normal; */
+}
+P{
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -166,10 +169,7 @@
     font-size: 20px;
     font-weight: 400;
 }
-.comingImg{
-    /* width: 463px;
-    height: 463px; */
-}
+
 .lastSection{
     width: 276px;
 }
@@ -257,4 +257,125 @@
 }
 .allimg{
     box-sizing: content-box;
+}
+
+/* portfolio section */
+
+
+.portfolio{
+    margin-top: 400px;
+    padding: 0 140px;
+}
+.portfolioText h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+}
+.portfolioText h1{
+    font-size: 64px;
+    font-weight: 900;
+    padding: 10px 0;
+}
+.portfolioText p{
+    width: 896px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+    line-height: 32px;
+    padding-bottom: 40px;
+}
+.portfolioImg{
+    display: flex;
+}
+.portfolioImg img {
+    margin-right: 20px;
+    border: none;
+    /* box-shadow: 0px -1px 5px 1px black; */
+    /* border-radius: 20px; */
+}
+
+.contact{
+    width: 1320px;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 212px 100px;
+    margin-bottom: 50px;
+}
+
+.contact h1{
+    font-size: 48px;
+    font-weight: 900;
+    padding: 15px 0;
+}
+.contact p{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 0;
+    line-height: 32px;
+}
+
+.contact input {
+    padding: 18px 170px 18px 30px;
+    border: none;
+    border-radius: 22px 0px 0px 22px;
+    outline: none;
+
+}
+
+.contact input:focus{
+    border-color: white;
+}
+.contact button {
+    padding: 17px 40px;
+    border: none;
+    margin-left: -10px;
+    border-radius: 0 22px 22px 0;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+input[type="email"] {
+    color: gray;
+}
+
+
+/* footer section */
+
+.footer{
+    padding-bottom: 20px;
+    background-color: rgb(7, 2, 17);
+}
+
+.footer p{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footerHead{
+    display: flex;
+    justify-content: space-between;
+    width: 1185px;
+    margin: 0 auto;
+    padding: 100px 0 50px 0;
+    line-height: 40px;
+}
+.footerIcon img{
+    width: 52px;
+    height: 52px;
+    margin: 0 7px;
+}
+.footerIcon {
+    text-align: center;
+    padding: 40px 0;
+    width: 1185px;
+    margin: 0 auto;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    /* margin-bottom: 30px; */
 }
